@@ -32,7 +32,7 @@ init_config:
 instances: [{}]
 
 Q.5) Bonus Question Can you change the collection interval without modifying the Python check file you created?
-Ans - May be there is an API for that.
+Ans - I am really not sure about this question. May be there is an to modify the Python check file.
 
 
 
