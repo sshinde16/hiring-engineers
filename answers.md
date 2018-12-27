@@ -1,10 +1,12 @@
 Your answers to the questions go here.
 Section A :  Collecting Metrics
 Q.1) Add tags in the Agent config file and show us a screenshot of your host and its tags on the Host Map page in Datadog.
-Ans - https://github.com/sshinde16/hiring-engineers/blob/SurabhiShinde_Solutions_Engineer/Img1.PNG
+Ans - In Datadog, Tags can be added by goinh to Infrastructre-->HostMap window on the dashboard. You can add as many tags as you want on the dashboard. Below is the screenshot of the dashboard where I have added tags to the infrasture window.
+https://github.com/sshinde16/hiring-engineers/blob/SurabhiShinde_Solutions_Engineer/Img1.PNG
 
 Q.2) Install a database on your machine (MongoDB, MySQL, or PostgreSQL) and then install the respective Datadog integration for that database.
-Ans - https://github.com/sshinde16/hiring-engineers/blob/SurabhiShinde_Solutions_Engineer/Install_database_integration.PNG
+Ans - Installing a database and integrating it with datadog dashboaord is really easy. You can just download the database(in my case, I have dowanloaded MySQL) and integrate it by visiting Integrations window. Below is the imahge of integrated database with datadog dashboard.
+https://github.com/sshinde16/hiring-engineers/blob/SurabhiShinde_Solutions_Engineer/Install_database_integration.PNG
 
 Q.3) Create a custom Agent check that submits a metric named my_metric with a random value between 0 and 1000.
 Ans - ```python:checks.d/myMetric.py
